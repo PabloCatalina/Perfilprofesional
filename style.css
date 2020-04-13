@@ -1,0 +1,86 @@
+html {
+    font-family: sans-serif;
+    hyphens: auto;
+}
+  
+article {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.ficha {
+    border: black 2px solid;
+    margin: 10px;
+}
+  
+article p {
+    margin: 0;
+    padding: 5px;
+}
+
+p.p2 {
+    padding: 5px 0;
+    background-color: white;
+    font-size: 180%;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 15px;
+}
+
+p.p3 {
+    text-align: justify;
+    font-size: 130%;
+    margin-left: 15px;
+}
+
+
+/* article */
+
+article.a32 div.ficha {
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+}
+  
+article.a32 div.parte {
+    display: flex;
+    flex-direction: column;
+    border-left: black 2px solid;
+}
+  
+article.a32 p.p1 {
+    font-size: 600%;
+    align-self: center;
+}
+
+/* tablas */
+
+/* tatabla 1 */
+table.t1{
+    margin-left: 15px;
+    color:rgb(145, 142, 142);
+    font-size: 90%;
+}
+
+th{
+    padding-right: 8px;
+}
+
+th.t1{
+    border-left: solid 2px rgb(145, 142, 142);
+    padding-left: 10px;
+}
+
+/* tabla 2 */
+table.t2{
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 90%;
+    text-align: left;
+}
+
+th.t2{
+    color:  rgb(145, 142, 142);
+    padding-right: 40px;
+}
