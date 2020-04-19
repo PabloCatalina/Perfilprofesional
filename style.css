@@ -49,6 +49,10 @@ p.cm{
     color: rgb(145, 142, 142);
 }
 
+p.cont{
+    margin-top: 5px;
+}
+
 /* article */
 
 article.a32 div.ficha {
@@ -120,6 +124,16 @@ th.t2{
     padding-right: 40px;
 }
 
+/* tabla contactos */
+
+table.cont{
+    margin-top: 10px;
+}
+
+th.t3{
+    padding-left: 30px;
+}
+
 /* objeto */
 object{
     margin-bottom: 5px;
@@ -129,4 +143,8 @@ object{
 
 a{
     color:rgb(230, 115, 7);
+}
+
+iframe{
+    margin-left: 15px;
 }
